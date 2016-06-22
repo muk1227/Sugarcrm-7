@@ -1,0 +1,13 @@
+({
+    extendsFrom:'RecordView',
+	initialize: function (options) {
+		
+		this._super('initialize',[options]);
+		
+		 this.meta = app.metadata.getView(this.module, 'CustomView');
+		
+	},
+
+		 
+
+})		
